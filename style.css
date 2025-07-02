@@ -1,25 +1,64 @@
-.navbar{
+.navbar {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+}
+
+.head {
+    font-size: 32px;              /* Bigger font size */
+    margin: 0;
+    display: flex;                /* Align icon and text in one row */
+    align-items: center;
+    white-space: nowrap;          /* Prevents line break */
+    gap: 10px;                    /* Adds space between icon and text */
+}
+
+.lists {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.lists li a {
+    text-decoration: none;
+    color: rgb(77, 20, 20);
+    font-weight: bold;
+}
+
+.navbar{
     font-family: fantasy;
     color: rgb(77, 20, 20);
     background-color: rgb(198, 155, 117);
 }
-
 .navbar a{
     text-decoration: none;
     color: rgb(77, 20, 20);
     font-size: 25px;
     display: flex;
     padding: 25px;
-
+    display: flex;
+    margin-right: 25px;
+    height: 50px;
+    flex-direction: row;
 }
 .navbar a:hover{
     background-color: blanchedalmond;
 }
-
 h1{
-    font-size: 45px;
+    font-size: 40px;
     margin-left: 15px;
+    display: flex;
+    padding: 25px;
+    
+}
+
+.head{
+    width:auto;
+    height: auto;
 }
 .lists{
     list-style: none;
@@ -49,45 +88,39 @@ button:hover{
     transform: scale(1.2);
     transition: 1.3s;
 }
-
 .card-row{
     display: flex;
 }
-
 .card{
-    border: 3px solid rgb(77, 20, 20);
+    border: 1px solid rgb(77, 20, 20);
     border-radius: 8px;
-    font-size: 15px;
+    font-size: 19px;
     text-align: center;
     width:300px;
-    height: 575px;
+    height: 655px;
     padding: 18px;
-    margin-left: 75px;
+    margin-left: 85px;
     margin-bottom: 25px;
     color: rgb(77, 20, 20);
     transition: 2s;
     margin-top: 35px;
+    background-color: rgb(159, 126, 89);    
 }
-
 .card:hover{
     transform: scale(1.1); 
-    background-color: bisque;  
+    background-color: rgb(192, 163, 119); 
 }
-
 .card-row .image{
     justify-content: center;
     opacity: 0.8;
 }
-
 .card-row .image:hover{
     opacity: 1;
-    }
-
+}
 h3{
     font-family: fantasy;
-    font-size: 28px;
+    font-size: 30px;
 }
-
 .contact{
     text-align: center;
     justify-content: center;
@@ -100,13 +133,13 @@ h3{
     color: blanchedalmond;
     text-decoration: none;
 }
-
 h2{
     text-align: center;
     justify-content: center;
     display: flex;
-    color: rgb(77, 20, 20);
-    font-size: 45px;
+    color: rgb(67, 17, 17);
+    font-size: 50px;
+    font-family: fantasy;
 }
 
 h4{
@@ -118,15 +151,41 @@ h4{
     justify-content: center;
     display: flex;
     color:rgb(77, 20, 20) ;
+    font-family: fantasy;
+    font-size: 22px;
 }
 .row{
     display: flex;
 }
-
 .col{
     gap: 30px;
     font-size: 20px;
     text-align: center;
     justify-content: center;
     margin-left: 40px;
+}
+.story{
+    text-align: center;
+    font-family: fantasy;
+    color: rgb(225, 190, 159);
+    font-size: 57px;
+    padding: 20px;
+}
+.brewing{
+    font-size: 23px;
+    text-align: center;
+    justify-content: center;
+    color: rgb(195, 162, 133);
+    padding: 20px;
+}
+.brewing::first-letter{
+        color: rgb(225, 190, 159);
+        font-size: 85px;
+        font-family: 'Times New Roman', Times, serif;
+}
+.icons{
+    font-size: 25px;
+    background-color: rgb(69, 15, 15);
+    gap: 12px;
+    display: flex;
 }
