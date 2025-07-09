@@ -8,11 +8,11 @@
 }
 
 .head {
-    font-size: 30px;              /* Bigger font size */
-    display: flex;                /* Align icon and text in one row */
+    font-size: 30px;             
+    display: flex;                
     align-items: center;
-    white-space: nowrap;          /* Prevents line break */
-    gap: 10px;                    /* Adds space between icon and text */
+    white-space: nowrap;          
+    gap: 10px;                    
 }
 
 .lists {
